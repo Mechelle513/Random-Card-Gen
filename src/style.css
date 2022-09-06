@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+  box-sizing: border-box;
+}
+.card {
+  text-align: center;
+  background: white;
+  display: inline-block;
+  margin: auto;
+  height: 350px;
+  width: 250px;
+  padding: 20px;
+  padding-top: 130px;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: relative;
+}
+#before {
+  margin-top: -40%;
+  padding-left: 80%;
+}
+#after {
+  margin-bottom: 700px;
+  padding-right: 100%;
+}
+#number {
+  font-size: 90px;
+  margin: auto;
+}
+.sym {
+}
